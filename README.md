@@ -98,8 +98,7 @@ int josephus_recursion(int n, int k);
 
 Use the recurrence relation:
 
-J(n, k) = 0 when n = 1
-J(n, k) = (J(n-1, k) + k) mod n, when n > 1
+J(n, k) = 0, when n = 1<br>J(n, k) = (J(n-1, k) + k) mod n, when n > 1
 
 Requirements:
 - Compute result recursively
